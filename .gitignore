@@ -1,0 +1,26 @@
+# Ignore system files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Ignore sensitive configuration files
+config.php      # Your configuration file with sensitive data
+.env            # Environment variables for sensitive data
+
+# Ignore log files and temporary data
+*.log           # Ignore all log files
+logs/           # Ignore logs folder
+tmp/            # Ignore temporary folder
+
+# Ignore PHPMailer library
+PHPMailer/      # Ignore the PHPMailer directory
+
+# Ignore registration and login code
+register.php    # Your registration code file
+login.php       # Your login code file
+
+# Ignore dependencies if using Composer
+vendor/         # Composer dependencies folder
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
